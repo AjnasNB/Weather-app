@@ -8,7 +8,7 @@ const Weather = () => {
   const [weather, setWeather] = useState({});
   const [searchError, setSearchError] = useState("");
   const api = {
-    base: "http://api.openweathermap.org/data/2.5/",
+    base: "https://api.openweathermap.org/data/2.5/",
     key: "71318614e9a117aff898a7d28202421d",
   };
 

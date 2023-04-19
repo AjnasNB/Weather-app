@@ -2,10 +2,7 @@
   
   margin: 0 auto;
   text-align: center;
-  background-image: url('https://www.survivingwithandroid.com/wp-content/uploads/2014/11/android_weather_app.jpg');
-  background-size: cover;
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat;
+  
 }
 /* App.css */
 .weather-container{
@@ -19,6 +16,10 @@
   border-radius: 10px;
   padding: 20px;
   box-sizing: border-box;
+  background-image: url('https://www.survivingwithandroid.com/wp-content/uploads/2014/11/android_weather_app.jpg');
+  background-size: cover;
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
 }
 
 .weather-card {
